@@ -17,7 +17,7 @@
 #
 # For more complex options, use the `chef-client` cookbook's `config`
 # recipe to configure /etc/chef/client.rb.
-default['chef_client']['interval']       = '1800'
+default['chef_client']['interval']       = '120'
 default['chef_client']['splay']          = '300'
 default['chef_client']['locale']         = nil
 default['chef_client']['daemon_options'] = []
